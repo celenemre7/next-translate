@@ -1,9 +1,11 @@
 import React from 'react'
-
-function page() {
+import Translate from "./translate"
+function Home() {
   return (
-    <div>page</div>
+    <div>
+      <Translate />
+    </div>
   )
 }
 
-export default page
+export default Home
